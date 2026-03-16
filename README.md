@@ -1,4 +1,4 @@
-# dashboard-webpart
+# Dashboard-webpart
 
 ## Summary
 
