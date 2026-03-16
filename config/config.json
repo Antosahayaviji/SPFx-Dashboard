@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wb-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wbDashboard/WbDashboardWebPart.js",
+          "manifest": "./src/webparts/wbDashboard/WbDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WbDashboardWebPartStrings": "lib/webparts/wbDashboard/loc/{locale}.js"
+  }
+}

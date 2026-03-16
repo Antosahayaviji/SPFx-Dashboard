@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.20.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "dashboard-webpart",
+    "libraryId": "2fbe0382-bd5a-46ed-b2d1-5d09aec22d19",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "dashboard-webpart",
+    "solutionShortDescription": "dashboard-webpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

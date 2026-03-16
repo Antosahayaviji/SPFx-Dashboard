@@ -1,0 +1,31 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+// :global(.CanvasZone),
+// :global(.CanvasSection),
+// :global(.CanvasZoneContainer){
+//   max-width: 100% !important;
+//   width: 100% !important;
+// }
+
+
+// :global(.CanvasZoneContainer){
+//   padding-left: 0 !important;
+//   padding-right: 0 !important;
+// }
+
+
+// :global(.CanvasSection){
+//   padding-left: 0 !important;
+//   padding-right: 0 !important;
+// }
+:global(body),
+:global(#workbenchPageContent){
+  overflow:hidden !important;
+}
+
+#workbenchPageContent,
+.CanvasComponent.LCS .CanvasZone{
+  max-width: 100% !important;
+}
+

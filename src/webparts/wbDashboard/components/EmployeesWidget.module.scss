@@ -1,0 +1,103 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.widgets{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.widgetCard{
+  background:#ffffff;
+  border-radius:16px;
+  padding:18px 20px;
+  border:1px solid $ms-color-neutralLight;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+
+.widgetHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:14px;
+}
+
+.widgetHeader h4{
+  font-size:15px;
+  font-weight:600;
+  margin:0;
+  color:$ms-color-neutralPrimary;
+}
+
+.iconBlue{
+  font-size:16px;
+  color:$ms-color-themePrimary;
+}
+
+.iconOrange{
+  font-size:16px;
+  color:$ms-color-orange;
+}
+
+.iconPink{
+  font-size:16px;
+  color:#e75480;
+}
+
+
+.row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 0;
+  border-bottom:1px solid #f0f0f0;
+}
+
+.row:last-child{
+  border-bottom:none;
+}
+.person{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.avatar{
+  width:32px;
+  height:32px;
+  border-radius:50%;
+  background:#eaeaea;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  font-weight:600;
+}
+
+.name{
+  font-size:13px;
+}
+
+.status{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.time{
+  font-size:13px;
+}
+
+.greenDot{
+  width:8px;
+  height:8px;
+  background:#16a34a;
+  border-radius:50%;
+}
+.badge{
+  background:#f3f2f1;
+  padding:4px 10px;
+  border-radius:12px;
+  font-size:12px;
+  font-weight:600;
+}

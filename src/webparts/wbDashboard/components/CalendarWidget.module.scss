@@ -1,0 +1,130 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.calendarLayout{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1.6fr;
+  gap:20px;
+}
+
+.smallCard{
+  background:$ms-color-white;
+  border-radius:16px;
+  padding:16px;
+  border:1px solid $ms-color-neutralLight;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.calendarCard{
+  background:$ms-color-white;
+  border-radius:16px;
+  padding:16px;
+  border:1px solid $ms-color-neutralLight;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.cardTitle{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.activityRow{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:8px 0;
+  border-bottom:1px solid $ms-color-neutralLighter;
+}
+
+.activityRow:last-child{
+  border-bottom:none;
+}
+
+.avatar{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:$ms-color-neutralLight;
+}
+
+.holidayRow{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 0;
+  border-bottom:1px solid $ms-color-neutralLighter;
+}
+
+.holidayRow:last-child{
+  border-bottom:none;
+}
+
+.date{
+  background:$ms-color-themeLighter;
+  color:$ms-color-themePrimary;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+  font-weight:600;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+}
+
+.header button{
+  background:$ms-color-neutralLight;
+  border:none;
+  padding:6px 10px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.daysHeader{
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+  text-align:center;
+  font-size:12px;
+  margin-bottom:8px;
+  color:$ms-color-neutralSecondary;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+  gap:6px;
+}
+
+.day{
+  text-align:center;
+  padding:6px;
+  border-radius:8px;
+  cursor:pointer;
+  background:$ms-color-neutralLighter;
+}
+
+.day:hover{
+  background:$ms-color-themeLight;
+}
+
+
+.iconPurple{
+  color:#7b4ce2;
+}
+
+.iconOrange{
+  color:#ff8c00;
+}
+
+.iconBlue{
+  color:#0078d4;
+}
+
+.iconGreen{
+  color:#107c10;
+}
