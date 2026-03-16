@@ -17,6 +17,20 @@ Short summary on functionality and used technologies.
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
+## Features
+- Manager Dashboard
+- Employee Dashboard
+- HR Dashboard
+- Role-based UI
+- Reusable React Components
+- Fluent UI design
+
+## Technologies Used
+- SharePoint Framework (SPFx)
+- React
+- TypeScript
+- Fluent UI
+
 ## Prerequisites
 
 > Any special pre-requisites?
